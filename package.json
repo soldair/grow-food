@@ -1,0 +1,31 @@
+{
+    "name" : "grow-food",
+    "version" : "0.0.0",
+    "description" : "how much of what foods do you have to grow when to satisfy x% of your dietary needs",
+    "main" : "index.js",
+    "bin" : {},
+    "directories" : {
+        "example" : "example",
+        "test" : "test"
+    },
+    "dependencies" : {},
+    "devDependencies" : {
+        "tape" : "~4.0.0"
+    },
+    "scripts" : {
+        "test" : "tape test/*.js"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/soldair/grow-food.git"
+    },
+    "homepage" : "https://github.com/soldair/grow-food",
+    "keywords" : ["food","growing","life","planning","livingwage"],
+    "author" : {
+        "name" : "Ryan Day",
+        "email" : "soldair@gmail.com",
+        "url" : "https://github.com/soldair"
+    },
+    "license" : "MIT",
+    "engine" : { "node" : ">=0.6" }
+}
